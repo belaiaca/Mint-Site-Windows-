@@ -1,0 +1,152 @@
+
+.roadmap-vid{
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    margin-left: 150px;
+  
+    position: relative;
+}
+
+
+.roadmap{
+
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  bottom: 150px;
+  width: 100%;
+  background: whitesmoke;
+  align-items: center;
+  display: flex;
+  font-family: Menlo, monospace;
+  
+}
+
+
+
+.roadmap-pre{
+  position: relative;
+  font-size: 100px;
+  bottom: 100px;
+  
+  color: black;
+  
+  
+
+}
+.band {
+  background: black;
+  height: 9px;
+  width: 400px;
+  bottom: 50px;
+  position: relative;
+  border-radius:30px;
+}
+
+
+.roadmap-paragraph{
+position: relative;
+font-size: 200px;
+
+}
+.presentation{
+
+
+  margin-left: 320px;
+  margin-bottom: 200px;
+}
+
+
+
+
+
+.gauche{
+
+  height:350px;
+  width: auto;
+  top: 300px;
+  margin-right: 800px;
+  position: relative;
+}
+
+.droite{
+
+  height: 350px;
+  width: auto;
+  left: 1355px;
+  position: relative;
+}
+
+
+
+
+
+
+.trailer
+{
+
+ position:fixed;
+ top:50%;
+ Left:50%;
+ transform:translate(-50%,-50%);
+ z-index:100000;
+ width:100%;
+ height:100%;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ backdrop-filter: blur(20px);
+ opacity: 0;
+ visibility: hidden;
+
+}
+
+.trailer video
+{
+
+ max-width:1200px;
+ outline:none;
+}
+
+.close{
+
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: 850px;
+  right: 18px;
+  cursor: pointer;
+  
+}
+.play{
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Menlo, monospace;
+  position: relative;
+  left: 340px;
+  bottom: 20px;
+  
+  
+  
+  
+
+}
+
+.trailer.active{
+visibility: visible;
+opacity: 1;
+}
+
+.play img{
+width: 30px;
+height: 30px;
+
+
+
+}
